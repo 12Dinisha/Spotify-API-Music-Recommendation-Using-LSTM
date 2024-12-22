@@ -10,3 +10,7 @@ Personalized Recommendations: Uses sequential data to predict user preferences.
 Spotify API Integration: Fetches detailed song metadata for accurate predictions.
 Dynamic Learning: Adapts to evolving user behavior through LSTM-based modeling.
 Comprehensive Song Analysis: Utilizes features like tempo, danceability, and energy.
+
+
+
+
