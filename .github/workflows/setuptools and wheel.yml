@@ -1,2 +1,2 @@
 - name: Upgrade setup tools and wheel
-run: python -m pip install --upgrade setuptools wheel
+run: python -m pip install --upgrade setup tools wheel
