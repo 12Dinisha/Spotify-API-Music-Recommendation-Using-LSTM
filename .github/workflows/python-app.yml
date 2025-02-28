@@ -10,35 +10,25 @@ on:
 
 jobs:
   build:
-    runs `pkg_resources`. You can replace it with `importlib`. To fix this, you can update your `pyproject.tom-on: ubuntu-latest
+    runs-on: ubuntu-latest
+
     steps:
-    - uses: actions/ related to the deprecated `pkg_resources` API.
+    - name: Checkout Repository
+      uses: actions/checkout@v2
 
-###checkout@v2
     - name: Set up Python
-      uses: actions.resources`.
-
-Check your `pyproject.toml` and update/setup-python@v2
-      withl` and any dependencies to use the latest packages:
+      uses: actions/setup-python@v2
+      with:
         python-version: '3.x'
-    - name: Upgrade pip, setuptools, dependencies as needed. Here is an example:
 
-```tom and avoid deprecated APIs.
-
-Here are the steps you and wheel
+    - name: Upgrade pip, setuptools, and wheel
       run: |
-        python -m pip install -- Steps to Resolve
-1. **Update Dependencies**:
-   -upgrade pip setuptools wheel
-    - name: Install dependencies
-      run: |
-        pip install -r requirements.txt can take:
+        python -m pip install --upgrade pip setuptools wheel
 
-1. **Update Dependencies**: Ensure that Make sure all dependencies are up-to-date, particularlyl
-[build-system]
-requires = ["setuptools>=42", "wheel
-    - name: Run tests
+    - name: Install Dependencies
+      run: |
+        pip install -r requirements.txt
+
+    - name: Run Tests
       run: |
         pytest
-        python -m pip install --upgrade pip setuptools
-    - name: Install dependencies
