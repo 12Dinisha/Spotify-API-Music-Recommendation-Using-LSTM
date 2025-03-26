@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-l compatible versions**: Ensure that the versions of the dependencies are compatible with your Python versionatest
+    runs-on: ubuntu-l compatible versions
 
     steps:
     - uses: actions/checkout@v2 and platform.
