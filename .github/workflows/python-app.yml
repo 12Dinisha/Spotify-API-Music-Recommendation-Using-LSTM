@@ -15,7 +15,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2 and platform.
 
-Here's an example of how you can
 
     - name: Set up Python
       uses: actions/setup-python modify your `.github/workflows/python-app.yml` to include these steps:
