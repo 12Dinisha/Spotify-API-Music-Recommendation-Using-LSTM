@@ -1,6 +1,4 @@
-numpy>=1.18.0
-pandas>=1.0.0
-tensorflow>=2.0.0
+<12Dinisha phachs 1 
 absl-py==1.4.0
 accelerate==1.2.1
 aiohappyeyeballs==2.4.4
@@ -598,4 +596,5 @@ numpy>=2.2.3
 pandas==1.3.3
 scikit-learn==1.5.1
 pytest==7.0.1
+tensorflow>=2.0.0
 > main
